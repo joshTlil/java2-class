@@ -16,7 +16,7 @@ public class J203_1 {
        try{
         return num / num2;
        }catch (Exception ex){
-           System.out.println("You can't by zero");
+           System.out.println("You can't divide " + num + " by " + num2);
        }finally {
            System.out.println("This program still is running");
        }
